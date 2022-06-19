@@ -10,3 +10,10 @@ function myFunction(x) {
     menu.classList.toggle("active");
     btn2.classList.toggle("active");
 }
+
+function gethome() {
+    const menu1 = document.getElementById("menu");
+    const menu2 = document.getElementById("container");
+    menu1.classList.toggle("active");
+    menu2.classList.toggle("change");
+}
