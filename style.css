@@ -378,7 +378,7 @@ footer .copyright a {
     text-transform: capitalize;
 }
 
-@media (max-width : 1115px) {
+@media (max-width : 999px) {
     header .menu {
         display: none;
     }
