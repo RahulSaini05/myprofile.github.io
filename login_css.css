@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/ css?family=Poppins: 200, 300, 400, 500, 600, 700, 800, 900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(img/login_bg.jpeg);
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+header {
+    top: 0;
+    left: 0;
+    padding: 30px 60px;
+    z-index: 10000;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    justify-content: space-between;
+    transition: 1s;
+}
+header p{
+    text-transform: capitalize;
+}
+header p a{
+    color: #fff;
+    text-decoration: none;
+}
+header .logo {
+    font-size: 1em;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+header.sticky .logo h1 {
+    color: #111;
+}
+
+header .logo h1 {
+    color: #fff;
+}
+
+header .logo h1 span {
+    color: red;
+}
+
+.signup{
+    padding: 40px 50px 30px 50px;
+    background-color: rgb(235, 232, 232);
+    border-radius: 20px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+}
+.signup .user{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.signup .user img{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.signup .form_signup{
+    padding: 5px 5px 5px 5px;
+    margin: 5px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.signup .form_signup .input{
+    display: flex;
+    margin-bottom: 10px;
+}
+.signup .form_signup .input input{
+    width: 100%;
+    height: 32px;
+    padding: 10px;
+}
+.signup .form_signup .input img{
+    margin-right: 4px;
+}
+.signup .form_signup .submit{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.signup .form_signup .submit input{
+    display: flex;
+    margin-top: 15px;
+    padding: 5px 15px;
+    background-color: #6b93cfce; 
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #111;
+    font-weight: 500;
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 5px;
+}
