@@ -14,7 +14,7 @@ header {
     align-items: center;
     display: flex;
     width: 100%;
-    position: fixed;
+    position: absolute;
     justify-content: space-between;
     transition: 1s;
 }
