@@ -17,3 +17,8 @@ function gethome() {
     menu1.classList.toggle("active");
     menu2.classList.toggle("change");
 }
+
+function myloader() {
+    const loader = document.getElementById("preloader");
+    loader.style.display = "none";
+}
