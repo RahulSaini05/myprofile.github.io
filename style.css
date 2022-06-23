@@ -8,6 +8,8 @@
     scroll-behavior: smooth;
 }
 #preloader {
+    height: 100vh;
+    justify-content: center;
     display: block;
     backdrop-filter: blur(5px);
     text-align: center;
@@ -451,6 +453,9 @@ footer .copyright a {
 }
 
 @media (max-width : 999px) {
+    #preloader {
+        padding: 100% 14% 14% 14%;
+    }
     header .menu {
         display: none;
     }
