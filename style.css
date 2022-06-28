@@ -155,7 +155,7 @@ header .menu .menu_list a:hover {
 .login {
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 0px;
 }
 
 .btn2 {

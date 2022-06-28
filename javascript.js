@@ -19,6 +19,26 @@ function gethome() {
 }
 
 function myloader() {
+    const btn2 = document.getElementById("btn2");
     const loader = document.getElementById("preloader");
+    let btu = localStorage.getItem('switch');
+    console.log(btu);
     loader.style.display = "none";
+    if (btu == 0) {
+        btn2.style.display = "none"
+    }
+    
+    else {
+        btn2.style.display = "flex"
+    }
+}
+
+function admin() {
+    const email = document.getElementById("email").value
+    const password = document.getElementById("password").value
+    var user ;
+    var pass ;
+    if (email == "rahulsaini" && password == "Admin@2003") {
+        location.replace("adminstration.html")
+    }
 }
